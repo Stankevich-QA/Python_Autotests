@@ -6,16 +6,16 @@ HEADERS = {'Content-Type' : 'application/json', 'trainer_token' : TOKEN}
 
 
 body = {
-        "name" : "Пирожок",
-        "photo" : "https://dolnikov.ru/pokemons/albums/040.png"
+        "name" : "Dessie",
+        "photo" : "https://dolnikov.ru/pokemons/albums/052.png"
 }
 
-id = '15270'
+id = '16783'
 
 body_change_name = {
         "pokemon_id" : id,
-        "name" : "Ванилька",
-        "photo" : "https://dolnikov.ru/pokemons/albums/040.png"
+        "name" : "Walter",
+        "photo" : "https://dolnikov.ru/pokemons/albums/052.png"
 }
 
 
