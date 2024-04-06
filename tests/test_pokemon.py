@@ -10,5 +10,5 @@ def test_status_code():
     assert response.status_code == 200 
 
 def test_part_of_response():
-    response = requests.get(url = f'{URL}/trainers', params = {'trainer_id' : 2195})
-    assert response.json()['data'][0]['trainer_name'] == 'Тито'
+    response = requests.get(url = f'{URL}/trainers', params = {'trainer_id' : 2630})
+    assert response.json()['data'][0]['trainer_name'] == 'Stankevich'
